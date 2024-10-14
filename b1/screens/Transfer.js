@@ -14,7 +14,7 @@ import * as Location from 'expo-location';
 
 import { inject, observer } from 'mobx-react';
 
-//import {Picker} from '@react-native-picker/picker'; // uninstalled when picker is taking selected value
+//import {Picker} from '@react-native-picker/picker'; // uninstalled when picker is taking selected value 
 
 @inject('LocalStore')
 @observer
