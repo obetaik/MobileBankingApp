@@ -105,8 +105,7 @@ handleTransactionAmount = (transactionAmount) =>
     }  
     
 try{
-    //const response =await fetch('http://08ff-86-187-169-87.ngrok.io/api/transaction', {
-  const response =await fetch('http://2a02-77-102-46-44.ngrok.io/api/transaction', {
+  const response =await fetch('http://999m.ngrok.io/api/transaction', {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json',
@@ -180,7 +179,7 @@ async findCoordinates (){
     //this.state.locationArray = this.state.location;
     console.log(' latitude :'+lat +' Longitude :'+long);
    // let coord_Address = await this.getAddressFromCoordinates(lat, long);
-   await fetch('https://maps.googleapis.com/maps/api/geocode/json?latlng=52.4455281,-1.9293932&key=AIzaSyBVJn0jp7kyaQuLha_Y7RCFL16Vxag7NUo', {
+   await fetch('https://maps.googleapis.com/maps/api/geocode/json?latlng=52.4455281,-1.9293932&key=7777777777777', {
     method: 'GET',
     headers: { 
        'Content-Type': 'application/json',
